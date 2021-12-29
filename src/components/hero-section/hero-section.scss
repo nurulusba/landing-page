@@ -171,6 +171,10 @@
   box-shadow: none;
   font-size: 16px;
   line-height: 19.36px;
+  &:hover {
+    background-color: #76ede3 !important;
+    border: 1px solid #76ede3 !important;
+  }
 }
 
 .brick {
@@ -202,6 +206,10 @@
 
   .table img {
     max-width: 150px;
+  }
+  .sun {
+    bottom: 10% !important;
+    left: 0px !important;
   }
 }
 
@@ -251,6 +259,10 @@
   }
   .hero-section-headings h2 {
     font-size: 30px;
+  }
+  .sun {
+    bottom: 0% !important;
+    left: 0px !important;
   }
 }
 

@@ -33,6 +33,9 @@
   font-size: 16px;
   font-weight: 400;
   margin-right: 29.81px;
+  &:hover {
+    color: #6a6a6a !important;
+  }
 }
 
 .header-btn {
@@ -47,6 +50,10 @@
   width: 137px;
   margin-right: 20px;
   box-shadow: none !important;
+  &:hover {
+    background-color: #76ede3 !important;
+    border: 1px solid #76ede3 !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
