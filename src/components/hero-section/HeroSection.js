@@ -170,7 +170,7 @@ const HeroSection = () => {
           <img style={{ width: "100%" }} alt="hills" src={hills} />
         </div>
         <div className="tree">
-          <img src={tree1} />
+          <img src={tree1} alt='tree' />
         </div>
 
         <div className="table">
