@@ -1,13 +1,20 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import home from "../../assets/home.svg";
 import hills from "../../assets/hills.svg";
 import tree from "../../assets/tree.svg";
 import table from "../../assets/table.svg";
 import tree1 from "../../assets/tree1.svg";
 import "./hero-section.scss";
+import SearchInput from "../common/search-input/SearchInput";
 
 const HeroSection = () => {
+  const [search, setSearch] = useState("");
+
+  const onChangeHandler = (e) => {
+    setSearch(e.target.value);
+  };
+  
   return (
     <section className="hero-section">
       <div className="hero-section-div">
@@ -18,17 +25,7 @@ const HeroSection = () => {
                 <h6 className="h-1">Get your instant Quote</h6>
 
                 <h2>Fast Free Florida Quotes in 3 Easy Steps</h2>
-                <div id="hero-searchbar">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter your home address"
-                  />
-                  <Button className="hero-btn" variant="primary">
-                    <span className="ds-btn">Get Instant Quote</span>
-                    <span className="mb-btn">Get Quote</span>
-                  </Button>
-                </div>
+                <SearchInput value={search} onChangeHandler={onChangeHandler} />
               </div>
             </Col>
           </Row>
@@ -170,7 +167,7 @@ const HeroSection = () => {
           <img style={{ width: "100%" }} alt="hills" src={hills} />
         </div>
         <div className="tree">
-          <img src={tree1} alt='tree' />
+          <img src={tree1} alt="tree" />
         </div>
 
         <div className="table">

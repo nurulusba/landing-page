@@ -135,48 +135,6 @@
   top: 30%;
 }
 
-#hero-searchbar {
-  width: 80%;
-  min-height: 50px;
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  z-index: 1;
-  background: #ffffff;
-  box-shadow: 0px 2px 20px rgba(38, 63, 108, 0.16);
-  border-radius: 26px;
-  z-index: 100;
-}
-
-#hero-searchbar input {
-  width: 63%;
-  border-radius: 26px;
-  border: 1px solid #ffffff;
-  padding-top: 16px;
-  padding-bottom: 15px;
-  padding-left: 23.73px;
-  box-shadow: none;
-  color: #6a6a6a;
-}
-
-#hero-searchbar .hero-btn {
-  position: absolute;
-  right: 0;
-  width: 175.69px;
-  height: 100%;
-  border-radius: 26px;
-  background-color: #64d6cd;
-  color: #ffffff;
-  border: 1px solid #64d6cd;
-  box-shadow: none;
-  font-size: 16px;
-  line-height: 19.36px;
-  &:hover {
-    background-color: #76ede3 !important;
-    border: 1px solid #76ede3 !important;
-  }
-}
-
 .brick {
   width: 100%;
   svg {
@@ -214,15 +172,6 @@
 }
 
 @media screen and (max-width: 530px) {
-  #hero-searchbar {
-    width: 100%;
-  }
-  #hero-searchbar .hero-btn {
-    width: 35%;
-  }
-  #hero-searchbar input {
-    width: 65%;
-  }
   .birds {
     top: 0 !important;
   }
@@ -251,12 +200,6 @@
 }
 
 @media screen and (max-width: 475px) {
-  #hero-searchbar .hero-btn {
-    width: 50%;
-  }
-  #hero-searchbar input {
-    width: 50%;
-  }
   .hero-section-headings h2 {
     font-size: 30px;
   }
