@@ -1,0 +1,289 @@
+.hero-section {
+  height: 584px;
+  background: linear-gradient(
+    359.92deg,
+    #d9d2a8 0.07%,
+    #dccd9e 0.07%,
+    #dbd1ac 40%,
+    #fff6d8 63.53%,
+    #f1ebe0 84.59%,
+    #ffffff 99.93%
+  );
+}
+
+.hero-section-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 58px;
+
+  .h-1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #64d6cd;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    z-index: 1;
+    text-align: center;
+  }
+
+  h2 {
+    color: #292929;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 24px;
+    z-index: 1;
+  }
+}
+
+.hero-section-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-section-div .bottom-bar {
+  background: linear-gradient(269.88deg, #c8bd8f 28.6%, #a0ceb9 99.9%);
+  width: 100%;
+  height: 33px;
+  position: absolute;
+  bottom: 0;
+}
+
+.hero-section-div .long-wave {
+  position: absolute;
+  bottom: 0;
+}
+
+.long-wave svg {
+  max-width: 100%;
+}
+
+.hero-section-div .sun {
+  position: absolute;
+  bottom: 180px;
+  left: 70px;
+}
+
+.hero-section .tree {
+  position: absolute;
+  bottom: 10px;
+  left: 48px;
+  z-index: 10;
+}
+
+.hero-section .table {
+  position: absolute;
+  bottom: -10px;
+  left: 140px;
+  z-index: 10;
+  width: fit-content;
+}
+
+.hero-section-div .home {
+  position: absolute;
+  bottom: 32px;
+
+  right: 17.26px;
+  z-index: 10;
+
+  img {
+    width: 100%;
+  }
+}
+
+.hero-section-div .tree2 {
+  position: absolute;
+  bottom: 32px;
+  right: 351px;
+  z-index: 10;
+
+  svg {
+    width: 100%;
+  }
+}
+
+.mb-btn {
+  display: none;
+}
+
+.hero-section-div .cloud1 {
+  position: absolute;
+  top: 110px;
+}
+
+.hero-section-div .cloud2 {
+  position: absolute;
+  top: 233px;
+  left: 55px;
+}
+
+.hero-section-div .cloud3 {
+  position: absolute;
+  top: 171px;
+  right: 0;
+}
+
+.hero-section-div .birds {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+#hero-searchbar {
+  width: 80%;
+  min-height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 1;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px rgba(38, 63, 108, 0.16);
+  border-radius: 26px;
+  z-index: 100;
+}
+
+#hero-searchbar input {
+  width: 63%;
+  border-radius: 26px;
+  border: 1px solid #ffffff;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-left: 23.73px;
+  box-shadow: none;
+  color: #6a6a6a;
+}
+
+#hero-searchbar .hero-btn {
+  position: absolute;
+  right: 0;
+  width: 175.69px;
+  height: 100%;
+  border-radius: 26px;
+  background-color: #64d6cd;
+  color: #ffffff;
+  border: 1px solid #64d6cd;
+  box-shadow: none;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.brick {
+  width: 100%;
+  svg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  .home img {
+    max-width: 200px;
+  }
+  .tree2 {
+    right: 200px !important;
+  }
+  .tree2 img {
+    max-width: 100px;
+  }
+  .tree {
+    left: 0px !important;
+  }
+  .tree img {
+    max-width: 70px;
+  }
+  .table {
+    left: 50px !important;
+  }
+
+  .table img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #hero-searchbar {
+    width: 100%;
+  }
+  #hero-searchbar .hero-btn {
+    width: 35%;
+  }
+  #hero-searchbar input {
+    width: 65%;
+  }
+  .birds {
+    top: 0 !important;
+  }
+  .tree {
+    left: 0px !important;
+  }
+  .tree img {
+    max-width: 40px !important;
+  }
+  .table {
+    left: 30px !important;
+  }
+
+  .table img {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 403px) {
+  .tree {
+    display: none;
+  }
+  .table {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  #hero-searchbar .hero-btn {
+    width: 50%;
+  }
+  #hero-searchbar input {
+    width: 50%;
+  }
+  .hero-section-headings h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 3007px) {
+  .long-wave {
+    height: 256px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .ds-btn {
+    display: none;
+  }
+  .mb-btn {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 206px) {
+  .sun {
+    display: none;
+  }
+  .cloud1 {
+    display: none;
+  }
+  .cloud2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 308px) {
+  .tree2 {
+    right: 100px !important;
+  }
+}

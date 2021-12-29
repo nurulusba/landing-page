@@ -1,0 +1,55 @@
+.banner-section {
+  background-color: #151f1e;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  #cc-text {
+    padding-right: 63px;
+  }
+}
+
+.banner-section-div {
+  width: 100%;
+}
+.banner-text {
+  color: #ffff !important;
+  margin-left: 32.5px;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#phone-svg {
+  margin-right: 8.75px;
+  margin-bottom: 0.7px;
+}
+
+.banner-text span {
+  font-weight: 500;
+  color: #64d6cd;
+}
+
+@media screen and (max-width: 611px) {
+  .banner-text {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #banner-headings {
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
+  #cc-text {
+    padding-right: 0px !important;
+  }
+}
+
+@media screen and (min-width: 1358px) {
+  .banner-section-div {
+    max-width: 1520px !important;
+  }
+}
