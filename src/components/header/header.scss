@@ -1,6 +1,6 @@
 .header-section {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-  background-color: #ffffff !important;
+  background-color: var(--nav-bg-color) !important;
   .logo {
     width: 123px;
     object-fit: cover;
@@ -9,11 +9,12 @@
 }
 
 #basic-navbar-nav {
-  background-color: #ffffff;
+  background-color: var(--nav-bg-color) !important;
   z-index: 1;
 }
 
 #nav-toggle {
+  color: var(--nav-font-color);
   z-index: 100000;
   margin-right: 20px;
   border: 0px solid #ffffff;
@@ -28,7 +29,7 @@
 
 .me-auto a {
   text-transform: capitalize;
-  color: #292929 !important;
+  color: var(--nav-font-color) !important;
   line-height: 22.4px;
   font-size: 16px;
   font-weight: 400;

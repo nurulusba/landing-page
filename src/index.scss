@@ -1,8 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+:root {
+  --nav-font-color: #292929;
+  --nav-btn-color: #64d6cd;
+  --nav-bg-color: #ffffff;
+  --hero-font-color: #292929;
+  --hero-bg-color: linear-gradient(
+    359.92deg,
+    #d9d2a8 0.07%,
+    #dccd9e 0.07%,
+    #dbd1ac 40%,
+    #fff6d8 63.53%,
+    #f1ebe0 84.59%,
+    #ffffff 99.93%
+  );
+  --hero-bottom-bar: linear-gradient(269.88deg, #c8bd8f 28.6%, #a0ceb9 99.9%);
+  --form-font-color: #59c6be;
+  --btn-next-color: #64d6cd;
+  --btn-next-hover-color: #59c6be;
+  --switch-color: #42ccc2;
+
+  --form-bg-color: linear-gradient(266.66deg, #26b5aa 0%, #4cc9c7 100.27%);
+}
+
+body[data-theme="dark-theme"] {
+  --nav-font-color: #ffffff;
+  --nav-btn-color: #64d6cd;
+  --nav-bg-color: #142b31;
+  --hero-font-color: #ffffff;
+  --hero-bg-color: linear-gradient(
+    182.78deg,
+    #0e1f26 0.15%,
+    #142b31 25.73%,
+    #233f43 44.95%,
+    #385755 59.73%,
+    #435855 71.53%
+  );
+
+  --form-font-color: #000000;
+  --btn-next-color: black;
+  --btn-next-hover-color: #435855;
+  --switch-color: black;
+  --form-bg-color: linear-gradient(
+    182.78deg,
+    #0e1f26 0.15%,
+    #142b31 25.73%,
+    #233f43 44.95%,
+    #385755 59.73%,
+    #435855 71.53%
+  );
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.rsw_2f {
+  overflow: hidden;
+  transition: none !important;
+  animation: none !important;
 }

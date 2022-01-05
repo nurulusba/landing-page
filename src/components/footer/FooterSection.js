@@ -85,39 +85,23 @@ function FooterSection() {
               </Col>
             </Row>
           </Col>
-
-          <Col xs="12">
-            <div className="footer-btns">
-              <Button variant="outline-primary" id="footer-left-btn">
+          <Row className="justify-content-end">
+            <Col xs="6">
+              <div className="footer-btns">
                 <svg
-                  width={12}
-                  height={14}
-                  viewBox="0 0 12 14"
+                  width={38}
+                  height={10}
+                  viewBox="0 0 38 10"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path
-                    d="M9.5399e-08 7L12 0.0717966L12 13.9282L9.5399e-08 7Z"
-                    fill="#64CEB5"
-                  />
+                  <circle cx={19} cy={5} r={5} fill="#64D6CD" />
+                  <circle cx="3.5" cy="5.5" r="3.5" fill="#64D6CD" />
+                  <circle cx="34.5" cy="5.5" r="3.5" fill="#64D6CD" />
                 </svg>
-              </Button>
-              <Button variant="outline-primary" id="footer-right-btn">
-                <svg
-                  width={12}
-                  height={14}
-                  viewBox="0 0 12 14"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 7L-1.48308e-06 13.9282L-1.06481e-07 0.0717957L12 7Z"
-                    fill="#64CEB5"
-                  />
-                </svg>
-              </Button>
-            </div>
-          </Col>
+              </div>
+            </Col>
+          </Row>
         </Row>
       </div>
     </footer>

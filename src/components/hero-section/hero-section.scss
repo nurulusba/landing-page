@@ -1,14 +1,6 @@
 .hero-section {
   height: 584px;
-  background: linear-gradient(
-    359.92deg,
-    #d9d2a8 0.07%,
-    #dccd9e 0.07%,
-    #dbd1ac 40%,
-    #fff6d8 63.53%,
-    #f1ebe0 84.59%,
-    #ffffff 99.93%
-  );
+  background: var(--hero-bg-color);
 }
 
 .hero-section-headings {
@@ -30,7 +22,7 @@
   }
 
   h2 {
-    color: #292929;
+    color: var(--hero-font-color);
     font-size: 40px;
     font-weight: 700;
     line-height: 46px;
@@ -47,8 +39,9 @@
   height: 100%;
 }
 
+/* Light theme */
 .hero-section-div .bottom-bar {
-  background: linear-gradient(269.88deg, #c8bd8f 28.6%, #a0ceb9 99.9%);
+  background: var(--hero-bottom-bar);
   width: 100%;
   height: 33px;
   position: absolute;
@@ -68,6 +61,12 @@
   position: absolute;
   bottom: 180px;
   left: 70px;
+}
+
+.hero-section-div .moon {
+  position: absolute;
+  bottom: 40%;
+  right: 70px;
 }
 
 .hero-section .tree {
@@ -194,7 +193,7 @@
   .tree {
     display: none;
   }
-  .table {
+  .hero-section .table {
     display: none;
   }
 }
@@ -241,4 +240,108 @@
   .tree2 {
     right: 100px !important;
   }
+}
+
+.dot1 {
+  position: absolute;
+  left: 9.65%;
+  right: 90.21%;
+  top: 19.19%;
+  bottom: 80.56%;
+}
+
+.dot2 {
+  position: absolute;
+  left: 18.2%;
+  right: 81.59%;
+  top: 18.81%;
+  bottom: 80.81%;
+}
+.dot3 {
+  position: absolute;
+  left: 14.24%;
+  right: 85.49%;
+  top: 24.14%;
+  bottom: 75.35%;
+}
+.dot4 {
+  position: absolute;
+  left: 15.28%;
+  right: 84.52%;
+  top: 34.43%;
+  bottom: 65.18%;
+}
+
+.dot5 {
+  position: absolute;
+  left: 18.82%;
+  right: 80.97%;
+  top: 29.1%;
+  bottom: 70.52%;
+}
+
+.dot6 {
+  position: absolute;
+  left: 21.46%;
+  right: 78.33%;
+  top: 34.78%;
+  bottom: 64.83%;
+}
+
+.dot7 {
+  position: absolute;
+  left: 28.89%;
+  right: 70.9%;
+  top: 41.82%;
+  bottom: 57.8%;
+}
+
+.dot8 {
+  position: absolute;
+  left: 65.83%;
+  right: 33.96%;
+  top: 20%;
+  bottom: 79.61%;
+}
+.dot9 {
+  position: absolute;
+  left: 76.32%;
+  right: 23.54%;
+  top: 19.06%;
+  bottom: 80.68%;
+}
+.dot10 {
+  position: absolute;
+  left: 80.9%;
+  right: 18.82%;
+  top: 24.02%;
+  bottom: 75.47%;
+}
+.dot11 {
+  position: absolute;
+  left: 84.87%;
+  right: 14.93%;
+  top: 18.68%;
+  bottom: 80.94%;
+}
+.dot12 {
+  position: absolute;
+  left: 81.94%;
+  right: 17.85%;
+  top: 34.31%;
+  bottom: 65.31%;
+}
+.dot13 {
+  position: absolute;
+  left: 85.49%;
+  right: 14.31%;
+  top: 28.97%;
+  bottom: 70.65%;
+}
+.dot14 {
+  position: absolute;
+  left: 92.78%;
+  right: 7.01%;
+  top: 21.09%;
+  bottom: 78.52%;
 }
