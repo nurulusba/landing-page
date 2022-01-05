@@ -1,10 +1,12 @@
 import React from "react";
 import { Navbar, Nav, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import "./header.scss";
 
 const Header = () => {
+  const navigation = useNavigate()
+
   return (
     <Navbar bg="light" expand="lg" className="header-section">
       <Link to={"/"}>
@@ -22,7 +24,7 @@ const Header = () => {
           <Nav.Link href="#make-payments">Make Payments</Nav.Link>
           <Nav.Link href="#billing">Billing</Nav.Link>
           <Nav.Link href="#contactus">Contact Us</Nav.Link>
-          <Button className="header-btn" variant="primary">
+          <Button className="header-btn" variant="primary" onClick={() => navigation('/confirm-address')}>
             Get A Quote
           </Button>
         </Nav>

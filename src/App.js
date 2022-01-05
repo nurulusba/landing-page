@@ -8,13 +8,9 @@ function App() {
   var d = new Date();
   var currentHour = d.getHours();
   if (currentHour >= 19 || currentHour <= 6) {
-    if (document.body.getAttribute("data-theme") !== "dark-theme") {
       document.body.setAttribute("data-theme", "dark-theme");
-    }
   } else {
-    if (document.body.getAttribute("data-theme") !== "light-theme") {
-      document.body.setAttribute("data-theme", "light-theme");
-    }
+      document.body.setAttribute("data-theme", "dark-theme");
   }
 
   return (

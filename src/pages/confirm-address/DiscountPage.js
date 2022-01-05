@@ -36,6 +36,7 @@ const DiscountPage = (props) => {
                           id="custom-switch"
                           className="discount-form-switch"
                           label=""
+                          defaultChecked={true}
                         />
                         <span>Yes</span>
                       </div>
@@ -51,6 +52,7 @@ const DiscountPage = (props) => {
                           id="custom-switch"
                           className="discount-form-switch"
                           label=""
+                          defaultChecked={true}
                         />
                         <span>Yes</span>
                       </div>
@@ -66,6 +68,7 @@ const DiscountPage = (props) => {
                           id="custom-switch"
                           className="discount-form-switch"
                           label=""
+                          defaultChecked={true}
                         />
                         <span>Yes</span>
                       </div>

@@ -47,6 +47,7 @@ const PricingPage = (props) => {
                   id="custom-switch"
                   className="discount-form-switch"
                   label=""
+                  defaultChecked={true}
                 />
               </div>
               <p>Bill Annualy</p>
