@@ -10,7 +10,7 @@ function App() {
   if (currentHour >= 19 || currentHour <= 6) {
       document.body.setAttribute("data-theme", "dark-theme");
   } else {
-      document.body.setAttribute("data-theme", "dark-theme");
+      document.body.setAttribute("data-theme", "light-theme");
   }
 
   return (
