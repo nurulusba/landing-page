@@ -21,6 +21,7 @@
   --switch-color: #42ccc2;
 
   --form-bg-color: linear-gradient(266.66deg, #26b5aa 0%, #4cc9c7 100.27%);
+  --form-bg-clip-path: ellipse(123% 100% at 50% 0%);
 }
 
 body[data-theme="dark-theme"] {
@@ -49,6 +50,7 @@ body[data-theme="dark-theme"] {
     #385755 59.73%,
     #435855 71.53%
   );
+  --form-bg-clip-path: 0;
 }
 
 body {

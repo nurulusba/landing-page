@@ -4,6 +4,7 @@ import PropertyDetails from "./PropertyDetails";
 import DiscountPage from "./DiscountPage";
 import ContactInformation from "./ContactInformation";
 import "./confirm-address.scss";
+import "../../components/hero-section/hero-section.scss";
 import PricingPage from "./PricingPage";
 
 const ConfirmAddress = () => {
